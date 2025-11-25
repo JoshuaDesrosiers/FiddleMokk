@@ -15,7 +15,8 @@ For many, this kind of foundation might seem more complex. For me, it’s seamle
 Even though FiddleMokk was created for mockups, it’s far from limited to them.
 
 <img width="1792" height="1066" alt="Screenshot 2025-11-22 at 11 28 46 PM" src="https://github.com/user-attachments/assets/51c8b689-2c5a-475c-a827-6d8b79550226" />
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o_Zoz98AJDE?si=VoUAGJY-pWnLCRVz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o_Zoz98AJDE?si=VoUAGJY-pWnLCRVz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/>
 
 The interface intentionally echoes the structure of real HTML. The **Divvy** section is shaped to feel familiar—even if users aren’t writing code directly, they’re brushing against the rhythms of markup as they build. The goal is to ease people into understanding the structure behind the screens they create, quietly dissolving the hesitation that usually surrounds code.
 
