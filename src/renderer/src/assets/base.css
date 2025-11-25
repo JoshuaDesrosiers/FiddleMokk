@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+.hover-visibility-victim{
+  opacity: 0;
+  display:none;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.hover-visibility:hover .hover-visibility-victim{
+  opacity: 1;
+  display: block;
+}
+.cool{
+  border: 2px solid black;
+}
+iframe {
+  height: 844px;
+  width: 390px;
+  min-width: 110px;
+  min-height: 110px;
+  resize: both;
+  overflow: auto;
+}
+.shadaw{
+transition-duration: 200ms;
+filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
+}
+.shadaw:hover{
+ filter: drop-shadow(0px 0px 2px #00000077); 
+}
+.no-padding {
+    padding: 0;           /* Remove inner padding */
+    margin: 0;            /* Remove outer margin */
+    height: auto;         /* Adjust height if needed */
+    line-height: 1;       /* Optional: remove extra spacing */
+    appearance: none;     /* Removes default arrow in some browsers */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+.grippy {
+  background-color: rgba(255, 255, 255, 0);
+
+  /* repeating 3-dot pattern */
+  background-image: radial-gradient(circle, #555 20%, transparent 21%);
+  background-size: 10px 10px; /* size of each dot */
+  background-repeat: repeat;
+  background-clip: content-box;
+  background-size: 7px 7px;
+}
+body,#root{
+  width: 100vw;
+  height: 100vh;
+  overflow:hidden;
+}
+.switch{
+  background-color: rgb(107, 107, 107);
+  width: 40px;
+  height: 20px;
+  margin: 1px;
+  border-radius: 999px;
+  transition-duration: 200ms;
+  position: relative;
+  
+}
+.switch-on{
+  padding-left: 20px;
+  background-color: lightblue;
+}
+.switch::before{
+  position: absolute;
+  content:'  ';
+  min-width: 15px;
+  margin: 2.5px;
+  min-height: 15px;
+  background-color: white;
+  border-radius: 999px;
+  z-index: 2;
+}
+.switch::after{
+  position: absolute;
+  content:'  ';
+  margin: 2.5px;
+  min-width: 15px;
+  min-height: 15px;
+  background-color: rgba(162, 162, 162, 0.379);
+  box-shadow: 0px 0px 10px rgb(67, 66, 66);
+  border-radius: 999px;
+  transition-duration: 200ms;
+  z-index: 1;
+}
+.switch:hover::after{
+  position: absolute;
+  content:'  ';
+  min-width: 30px;
+  min-height: 30px;
+  margin: -5px;
+  box-shadow: 0px 0px 0px transparent;
+  background-color: rgba(182, 181, 181, 0.411);
+  border-radius: 999px;
+}
+.vfx{
+  transform: none;
+  position: relative;
+}
+.vfx::before{
+  display: inline-block;
+  content: 'Visual + Effects';
+  position: absolute;
+  font-weight: 200;
+  color: black;
+  transform-origin: bottom;
+  transform: rotateX(0deg);
+  transition-duration: 700ms;
+  margin-top: 0px;
+}
+.vfx:hover::before{
+  margin-top: -10px;
+  transform: rotateX(200deg);
+}
+
+
+.node {
+  position: absolute;
+  background: #333;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  user-select: none;
+}
+
+.tb{
+  app-region: drag;
+}
+
+.fluid{
+  /* transform: scale(110%); */
+  background: linear-gradient(70deg, #005eff 25%, #0026bd , #0000d5 , #c000a9);
+  background-clip: text;
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-position: 100% 50%;
+  transition: 400ms ease-in-out;
+}
+.fluid:hover{
+  filter: grayscale(1);
+  letter-spacing: 1px;
+}
+
+.stripes-vertical{
+  width: 320px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;                 /* space between stripes */
+  background: #f2f4f6;
+  border-radius: 18px;       /* container rounding (optional) */
+}
+
+.stripes-vertical .stripe{
+  height: 26px;
+  border-radius: 999px;      /* pill shape */
+  background: linear-gradient(90deg,#cccccc,#cbcbcb);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.06) inset;
+}
+.no-drag {
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10+ */
+  -moz-user-select: none; /* Firefox */
+}
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index:0;
+  background-color: rgba(0, 0, 0, 0.069);
+  /* A gradient from black (fully opaque at 0%) to transparent (at 50%) */
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.329) 0%, rgba(0, 0, 0, 0) 20%);
+}
+.zoom{
+  zoom: 0.5;
+
+}

@@ -1,0 +1,33 @@
+{
+    "lofi": {
+        "Text": {
+            "#Headers":"",
+            "h2-lofi": "<div class='flex w-full gap-3 p-[10px]'><h1 class='h3-lg-fm'></h1><h1 class='h3-full-fm flex-grow'></h1></div>",
+            "h1-lofi": "<div class='flex w-full gap-3 p-[10px]'><h1 class='h2-lg-fm'></h1><h1 class='h2-full-fm flex-grow'></h1></div>",
+            "h3-lofi": "<div class='flex w-full gap-3 p-[10px]'><h1 class='h4-lg-fm'></h1><h1 class='h4-full-fm flex-grow'></h1></div>",
+            "h4-lofi": "<div class='flex w-full gap-3 p-[10px]'><h1 class='h5-lg-fm'></h1><h1 class='h5-full-fm flex-grow'></h1></div>",
+            "p-lofi": "<div class='para-fm mt-2 mb-2'><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p class='lg:hidden md:hidden'></p><p class='lg:hidden'></p></div>",
+            "indi-lofi": "<div class='car-fm'><p></p><p></p><p></p></div>",
+            "img-lofi": "<img class='m-auto' src='https://placehold.co/600x400'>",
+            "banner-lofi":"<div class=\"bg-[url('https://placehold.co/600x400')] bg-cover bg-center min-h-[300px] md:min-h-[500px] lg:min-h-[700px] w-full\"></div>",
+            "navFM": "<div class='nav-basic-fm'><a>Home</a><a>About</a><a>Services</a><a>Contact</a></div>",
+            "buttonFM":"<button class='button-fm'>Next</button>"
+
+
+
+
+
+        }
+    },
+    "navFM": "<div class='nav-basic-fm'><a>Home</a><a>About</a><a>Services</a><a>Contact</a></div>",
+    "searchFM": "<div class='p-2'><div class='container-round-fm'><input class='input-basic-fm' placeholder='Search...'></div></div>",
+    "inputFM": "<div class='p-2'><div class='container-round-fm'><input class='input-basic-fm' placeholder='type...'></div></div>",
+    "headerFM": "<div class='flex w-full'><h1 class='h2-lg-fm'></h1><h1 class='h2-full-fm flex-grow'></h1></div>",
+    "sentMSGFM": "<div class='flex p-2 gap-[5px]'><div class='para-fm'><p></p><p></p><p></p><p></p></div><div class='dot-xl-fm'></div></div>",
+    "reciMSGFM": "<div class='flex p-2 gap-[5px]'><div class='dot-xl-fm'></div><div class='para-fm'><p></p><p></p><p></p><p></p></div></div>",
+    "paraFM": "<div class='para-fm mt-2 mb-2'><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p class='lg:hidden md:hidden'></p><p class='lg:hidden'></p></div>",
+    "...FM": "<div class='car-fm'><p></p><p></p><p></p></div>",
+    "tagsFM": "<div class='tag-fm'><p>Info</p><p>Develop</p><p>About</p></div>",
+    "switchFM": "<div class='scale-[150%] m-5 switch-fm'></div>",
+    "imgPlacehld": "<img class='m-auto' src='https://placehold.co/600x400'>"
+}
