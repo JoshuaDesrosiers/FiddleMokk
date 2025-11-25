@@ -19,3 +19,6 @@ Even though FiddleMokk was created for mockups, it’s far from limited to them.
 The interface intentionally echoes the structure of real HTML. The **Divvy** section is shaped to feel familiar—even if users aren’t writing code directly, they’re brushing against the rhythms of markup as they build. The goal is to ease people into understanding the structure behind the screens they create, quietly dissolving the hesitation that usually surrounds code.
 
 FiddleMokk turns that exposure into something approachable, intuitive, and just a touch daring.
+
+<img width="1792" height="1065" alt="Screenshot 2025-11-25 at 12 30 56 PM" src="https://github.com/user-attachments/assets/bc59fe12-e137-4298-a449-6d12b5a91ecb" />
+
